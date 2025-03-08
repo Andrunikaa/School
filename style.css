@@ -1690,7 +1690,7 @@ a {
     width: 90%;
     margin: auto;
     margin-top: 100px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .motivation__title {
     font-size: 35px;
@@ -1713,6 +1713,44 @@ a {
   }
   #motivation__grid-img-type-2 {
     width: 350px;
+  }
+  .teachers {
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  .teaceh__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .teaceh__card-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 0;
+  }
+
+
+
+  #card__dmitryNest {
+    padding-bottom: 40px;
+  }
+  #card__dmitryNest img {
+    width: 340px;
+    height: 340px;
+    background-repeat: no-repeat;
+  }
+  #card__ElenaBorj {
+    padding-bottom: 20px;
+  }
+  .teachers__title {
+    color: #2d2c2a;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-bottom: 40px;
   }
   
 
