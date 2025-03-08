@@ -1436,6 +1436,7 @@ a {
     height: 300px;
     overflow: hidden;
     object-fit: cover;
+    margin: auto;
 
   }
 
