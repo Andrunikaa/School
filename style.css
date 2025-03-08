@@ -1474,15 +1474,7 @@ a {
   }
   
   .reason-card p {
-    color: #2d2c2a;
     font-size: 14px;
-    font-family: "Evolventa", Arial, sans-serif;
-    line-height: 1.55;
-    font-weight: 400;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-    opacity: 0.8;
   }
 
 
@@ -1492,36 +1484,11 @@ a {
     margin-top: 50px;
   }
   .disciplines__title {
-    color: #2d2c2a;
     font-size: 35px;
-    font-family: "Evolventa", Arial, sans-serif;
-    line-height: 1.55;
-    font-weight: 700;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-    text-align:center;
     width: 70%;
     margin-bottom: 30px;
 
   }
-
-  .disciplines-section {
-    text-align: center;
-    padding: 40px;
-  }
-  
-  .disciplines-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-  }
-  
-  .disciplines-section h2 span {
-    background-color: #ffea00; /* Yellow background */
-    padding: 5px 10px;
-  }
-  
-  /* Grid Layout */
   .disciplines-grid {
     height: 3000px;
     display: flex;
@@ -1531,79 +1498,32 @@ a {
   
   /* Card Styles */
   .discipline-card {
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 80%;
-    background: #f2f4f6;
     border-radius: 15px;
     margin-bottom: 20px;
   }
   
   .discipline-card .card-number {
-    grid-area: number;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    background-color: #ffea00;
-    color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1em;
-    justify-self: start;
+
   }
-  
-  .discipline-card h3 {
-    color: #2d2c2a;
-    font-size: 24px;
-    font-family: "Evolventa", Arial, sans-serif;
-    line-height: 1.55;
-    font-weight: 700;
-    text-transform: uppercase;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-  }
-  
+
   .discipline-card p {
-    color: #2d2c2a;
     font-size: 16px;
-    font-family: "Evolventa", Arial, sans-serif;
-    line-height: 1.55;
-    font-weight: 400;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
     width: 100%;
-    opacity: 0.8;
     margin-top: 20px;
     width: 80%;
   }
   
   .discipline-card .signup-button {
-    width: 70%;
-    height: 35px;
-    color: #ffffff;
-    font-size: 10px;
-    font-family: "Evolventa", Arial, sans-serif;
-    line-height: 1.55;
-    font-weight: 400;
-    text-transform: uppercase;
-    border-width: 1px;
-    border-radius: 30px;
-    background-color: #2d2c2a;
-    background-position: center center;
-    border-color: #2d2c2a;
-    border-style: solid;
+    width: 90%;
     transition: 0.6s;
     margin-top: 30px;
   }
-  .card-number-container {
-    width: 95%;
-    display: flex;
-    justify-content: flex-end;
-  }
+
 
   .card__info {
     display: flex;
@@ -1652,6 +1572,43 @@ a {
     margin-top: 40px;
     opacity: 0.6;
     width: 65%;
+  }
+  .examples {
+    margin: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .examples-title {
+    margin: auto;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 0px;
+
+  }
+  .examples-container {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+
+  }
+  .examples-img-1 {
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+  }
+  
+  .examples-img-2 {
+    width: 350px;
+    border-radius: 20px;
+  }
+  .examples-img-3 {
+    width: 350px;
+    border-radius: 20px;
+  }
+  .examples-img-4 {
+    width: 350px;
+    border-radius: 20px;
   }
 
 
