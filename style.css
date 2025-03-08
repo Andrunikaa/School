@@ -1,4 +1,5 @@
 div,
+html,
 span,
 h1,
 h2,
@@ -76,7 +77,7 @@ video {
   margin-top: 50px;
   justify-content: space-between;
   align-items: center;
-  width: 110%;
+  width: 100%;
 }
 .header__content-img {
   width: 450px;
@@ -1291,6 +1292,7 @@ a {
     border-color: transparent;
     border-style: solid;
     text-align: left;
+    margin-left: 20px;
   }
 
   .discipline-card .card-number {
@@ -1371,7 +1373,7 @@ a {
     display: none;
   }
   .header__content {
-
+    margin: 0;
     width: 100%;
   }
   .header__content-img {
@@ -1387,7 +1389,11 @@ a {
   .header__content-info-button{
     margin: 0;
   }
-
+  .mission{
+    margin: 0;
+    margin: auto;
+    margin-top: 80px;
+  }
   .mission__title {
     font-size: 35px;
   }
@@ -1451,11 +1457,13 @@ a {
     font-size: 35px;
     width: 60%;
   }
+  .reasons__title-span{
+    padding: 10px;
+  }
   .reasons__cards-container {
     display: flex;
   }
   .reasons-grid {
-
     margin: auto;
  
 
@@ -1894,6 +1902,7 @@ a {
   }
   .form {
     width: 80%;
+    height: 450px;
     margin: auto;
     margin-top: 100px;
     padding: 30px;
@@ -1950,6 +1959,65 @@ a {
   .offers {
     width: 115%;
     margin-bottom: 20px;
+  }
+  .footer {
+    background: #2d2c2a;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+  }
+  .footer__container {
+    width: 40%;
+    margin: auto;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer__text {
+    color: #ffffff;
+    font-size: 8px;
+    font-family: "Evolventa", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 00;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  .footer__socialMedias {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer__socMedia {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+    border-radius: 50%;
+    background: #f2f4f6;
+  }
+  #button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #button3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 
