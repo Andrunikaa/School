@@ -1611,16 +1611,8 @@ a {
     border-radius: 20px;
   }
   .reasons__title {
-    color: #2d2c2a;
     font-size: 25px;
-    font-family: "Evolventa", Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 700;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-    margin-left: 20px;
-    width: 80%;
+    width: 86%;
     
   }
   .reasons {
