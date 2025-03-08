@@ -1432,9 +1432,14 @@ a {
     border-radius: 20px;
   }
   .cover-img {
+    margin: auto;
     margin-top: 0;
-    width: 100%;
+    width: 260px;
     height: 100%;
+    scale: 2;
+    object-fit: cover;
+    margin-top: 30px;
+    margin-left: 20px;
   }
   .reasons {
     margin: auto;
@@ -1887,6 +1892,69 @@ a {
     width: 85%;
     height: 340px;
   }
+  .form {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+  }
+  .form__title {
+    color: #2d2c2a;
+    font-size: 20px;
+    width: 80%;
+    line-height: 1.8;
+  }
+  .form__title-span {
+    background: #f1e40a;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+
+  }
+  .form-p {
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
+  .form__inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .form__input-name {
+    width: 100%;
+  }
+  .form__input-number {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .form__input-button {
+    width: 100%;
+
+  }
+  .checkbox-container {
+    width: 115%;
+    display: flex;
+    margin-top: 30px;
+  }
+  .offers {
+    width: 115%;
+    margin-bottom: 20px;
+  }
+
+
+
+  
   
 
 }
