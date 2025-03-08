@@ -1621,4 +1621,71 @@ a {
     margin-top: 100px;
   }
 
+
+
+
+
+
+  .introduction {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .introduction__text {
+    width: 80%;
+    margin: auto;
+  }
+  .introduction__text-title {
+    font-size: 35px;
+  }
+  .introduction__text-title-span {
+    padding:10px ;
+  }
+  .introduction-text-list-item {
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+  }
+  .image-carousel {
+    margin: auto;
+    width: 75%; /* Take up half the width */
+    position: relative;
+    border-radius: 20px; /* Rounded corners */
+
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.8s;
+    border-radius: 20px;
+    width: 502%;
+  }
+  
+  .carousel-image {
+    width: 300px; /* Each image takes up 50% (original 100%, divided into 2) */
+    height: 300px;
+    border-radius: 20px; 
+    
+  }
+  
+  /* Navigation Dots */
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+
 }
