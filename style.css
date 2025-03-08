@@ -1665,7 +1665,7 @@ a {
   }
   
   .carousel-image {
-    width: 280px; /* Each image takes up 50% (original 100%, divided into 2) */
+    width: 290px; /* Each image takes up 50% (original 100%, divided into 2) */
     height: 300px;
     border-radius: 20px; 
     
