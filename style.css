@@ -498,7 +498,7 @@ margin-top: 100px;
   height: 480px;
   border-radius: 20px;
 }
-.results {
+.reasons {
   margin: auto;
   width: 65%;
 }
@@ -1610,7 +1610,23 @@ a {
     width: 350px;
     border-radius: 20px;
   }
-
-
+  .reasons__title {
+    color: #2d2c2a;
+    font-size: 25px;
+    font-family: "Evolventa", Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-left: 20px;
+    width: 80%;
+    
+  }
+  .reasons {
+    margin: auto;
+    width: 100%;
+    margin-top: 100px;
+  }
 
 }
