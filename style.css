@@ -1752,6 +1752,53 @@ a {
     margin-left: 30px;
     margin-bottom: 40px;
   }
+
+
+
+
+
+
+
+  .costs {
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .costs__text {
+    width: 90%;
+    text-align: left;
+    margin: auto;
+  }
+  .costs__variants {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .costs__text-title {
+    font-size: 30px;
+  }
+  .costs__text-p {
+    margin-bottom: 30px;
+  }
+
+
+  
+
+  
+
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.6s ease;
+    color: black;
+  }
   
 
 }
