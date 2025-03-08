@@ -1434,12 +1434,12 @@ a {
   .cover-img {
     margin: auto;
     margin-top: 0;
-    width: 260px;
+    width: 265px;
     height: 150px;
     scale: 2;
     object-fit: cover;
     margin-top: 30px;
-    margin-left: 13px;
+
   }
   .reasons {
     margin: auto;
