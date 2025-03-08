@@ -1345,7 +1345,6 @@ a {
 @media(width < 430px){
   .header {
     width: 100%;
-    border: 1px solid red;
     margin: auto;
   }
   .header__info {
@@ -1371,11 +1370,7 @@ a {
     display: none;
   }
   .header__content {
-    display: flex;
-    margin: auto;
-    margin-top: 50px;
-    justify-content: space-between;
-    align-items: center;
+
     width: 100%;
   }
   .header__content-img {
@@ -1388,6 +1383,10 @@ a {
     line-height: 70px;
     margin-bottom: 30px;
   }
+  .header__content-info-button{
+    margin: 0;
+  }
+
   .mission__title {
     font-size: 35px;
   }
@@ -1396,40 +1395,24 @@ a {
     font-size: 14px;
   }
   .mission-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+
     width: 100%;
-    border: 1px solid red;
   }
   .mission-content-cards-container {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+
   }
   .mission-content-card {
     width: 100%;
     height: 150px;
-    border: 2px solid #c9c9c9;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 15px;
+
   }
-  .mission-content-card-img {
-    width: 75px;
-    height: 40px;
-  }
+
   .youtube {
     border-radius: 20px;
     width: 100%;
-    height: 300px;
-
+    height: 400px;
   }
   
   .mission-content-card-p {
@@ -1447,7 +1430,61 @@ a {
     width: 100%;
     border-radius: 20px;
   }
+  .cover-img {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .reasons {
+    margin: auto;
+    width: 100%;
+    margin-top: 100px;
+    border: 1px solid red;
+  }
+  .reasons__title {
+    font-size: 35px;
+    width: 60%;
+  }
+  .reasons__cards-container {
+    display: flex;
+    border: 1px solid green;
+  }
+  .reasons-grid {
+    border: 1px solid red;
+    margin: auto;
+ 
+
+  }
   
+  /* Card Styling */
+  .reason-card {
+    background-color: #fff;
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+    width: 100%;
+    height: 150px;
+    margin-left: 35px;
+  }
+  
+  .reason-card img {
+    width: 80px; /* Adjust the size of icons */
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .reason-card p {
+    color: #2d2c2a;
+    font-size: 14px;
+    font-family: "Evolventa", Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    opacity: 0.8;
+  }
 
 
 
