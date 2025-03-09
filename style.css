@@ -1585,7 +1585,7 @@ a {
     margin-left: 45px;
     margin-top: 40px;
     opacity: 0.6;
-    width: 65%;
+    width: 70%;
   }
   .examples {
     margin: auto;
@@ -1952,12 +1952,15 @@ a {
 
   }
   .checkbox-container {
-    width: 115%;
+    width: 100%;
     display: flex;
     margin-top: 30px;
   }
+  .form__input-checkbox-p{
+    font-size: 8px;
+  }
   .offers {
-    width: 115%;
+    width: 100%;
     margin-bottom: 20px;
   }
   .footer {
